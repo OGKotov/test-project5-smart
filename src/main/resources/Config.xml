@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Необходимая корфигурация должна быть обернута в теги, с подходящим по смыслу названием. Каждый тег долджен содержать
+атрибут id, предназначенный для более тонкого поиска необходимого конфигурационного значения-->
+
+<configdatafortest>
+    <!--Название браузера, которым инициализируется драйвер. Для иницилизации драйвера, могут использоваться следующие значение
+  FIREFOX, CHROME, IEEXPLORER, OPERA, EDGE, SAFARI -->
+    <browser id="browserForTest">FIREFOX</browser>
+
+    <!--Путь к главной странице сайта, который тестируется-->
+    <url id="urlSiteForTes">http://store.steampowered.com</url>
+
+    <!--Значение Implicitly wait-->
+    <wait id="implicitly">10</wait>
+    <!--Значение Explicitly wait-->
+    <wait id="explicitly">10</wait>
+
+    <!--Формат даты -->
+    <dateformat id="dateformat">dd.MM.yyyy  HH:mm:ss</dateformat>
+
+    <!--Языковая версия тестового сайт. Могут использоваться следующий значения: EN, RU-->
+    <language id="languagesite">RU</language>
+
+    <!--Путь к папке для скачивания файлов-->
+    <path id="downloaddirectorypath">D:\Mytestdownload</path>
+
+</configdatafortest>
